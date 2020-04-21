@@ -49,7 +49,6 @@ namespace lab3Cs
             return num;
         }
 
-
         public static ComplexNumber operator *(ComplexNumber first, ComplexNumber second)
         {
             ComplexNumber num = new ComplexNumber();
@@ -80,7 +79,6 @@ namespace lab3Cs
                     isConjugate = true;
                 }
             }
-
             return isConjugate;
         }
 
@@ -94,9 +92,7 @@ namespace lab3Cs
                     isConjugate = false;
                 }
             }
-
             return isConjugate;
         }
-
     }
 }
