@@ -74,7 +74,7 @@ namespace lab3Cs
             bool isConjugate = false;
             if (first.real == second.real)
             {
-                if (Math.Abs(first.imaginable) == Math.Abs(second.imaginable))
+                if (first.imaginable == second.imaginable)
                 {
                     isConjugate = true;
                 }
@@ -87,7 +87,7 @@ namespace lab3Cs
             bool isConjugate = true;
             if (first.real == second.real)
             {
-                if (Math.Abs(first.imaginable) == Math.Abs(second.imaginable))
+                if (first.imaginable == second.imaginable)
                 {
                     isConjugate = false;
                 }

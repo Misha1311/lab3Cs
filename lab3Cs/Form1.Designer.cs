@@ -40,9 +40,8 @@
             this.R2 = new System.Windows.Forms.Label();
             this.OupR1 = new System.Windows.Forms.TextBox();
             this.OupR2 = new System.Windows.Forms.TextBox();
-            this.Number = new System.Windows.Forms.Label();
-            this.text = new System.Windows.Forms.Label();
             this.button = new System.Windows.Forms.Button();
+            this.text = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // InputA
@@ -160,24 +159,6 @@
             this.OupR2.Size = new System.Drawing.Size(92, 26);
             this.OupR2.TabIndex = 17;
             // 
-            // Number
-            // 
-            this.Number.AutoSize = true;
-            this.Number.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.Number.Location = new System.Drawing.Point(204, 101);
-            this.Number.Name = "Number";
-            this.Number.Size = new System.Drawing.Size(0, 20);
-            this.Number.TabIndex = 18;
-            // 
-            // text
-            // 
-            this.text.AutoSize = true;
-            this.text.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.text.Location = new System.Drawing.Point(259, 101);
-            this.text.Name = "text";
-            this.text.Size = new System.Drawing.Size(0, 20);
-            this.text.TabIndex = 19;
-            // 
             // button
             // 
             this.button.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
@@ -189,6 +170,15 @@
             this.button.UseVisualStyleBackColor = true;
             this.button.Click += new System.EventHandler(this.button_Click);
             // 
+            // text
+            // 
+            this.text.AutoSize = true;
+            this.text.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.text.Location = new System.Drawing.Point(215, 104);
+            this.text.Name = "text";
+            this.text.Size = new System.Drawing.Size(0, 20);
+            this.text.TabIndex = 19;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -196,7 +186,6 @@
             this.ClientSize = new System.Drawing.Size(422, 312);
             this.Controls.Add(this.button);
             this.Controls.Add(this.text);
-            this.Controls.Add(this.Number);
             this.Controls.Add(this.OupR2);
             this.Controls.Add(this.OupR1);
             this.Controls.Add(this.R2);
@@ -234,9 +223,8 @@
         private System.Windows.Forms.Label R2;
         private System.Windows.Forms.TextBox OupR1;
         private System.Windows.Forms.TextBox OupR2;
-        private System.Windows.Forms.Label Number;
-        private System.Windows.Forms.Label text;
         private System.Windows.Forms.Button button;
+        private System.Windows.Forms.Label text;
     }
 }
 

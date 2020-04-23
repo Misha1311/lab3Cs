@@ -34,13 +34,11 @@ namespace lab3Cs
 
             if (R1 == R2)
             {
-                Number.Text = "Числа";
-                text.Text = "сопряженные";
+                text.Text = "Числа сопряженные";
             }
             if (R1 != R2)
             {
-                Number.Text = "Числа";
-                text.Text = "не сопряженные";
+                text.Text = "Числа не сопряженные";
             }
         }
 
